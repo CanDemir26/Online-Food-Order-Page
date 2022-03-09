@@ -1,0 +1,26 @@
+.description {
+    line-height: 0.5px;
+    
+}
+
+.price {
+    margin: 17px;
+}
+
+.desc2 {
+    color: #abbbc2;
+    margin-top: 0.5px;
+}
+
+.line-height {
+    line-height: 10px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.bg-color{
+    background-color: #ea7c69;
+}

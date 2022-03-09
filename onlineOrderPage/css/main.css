@@ -1,0 +1,151 @@
+html {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #252836;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+#navbar {
+    background-color: #1f1d2b;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    width: 1100px;
+    height: 70px;
+    border: 1px solid #1f1d2b;
+    border-radius: 14px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0 150px;
+    height: 40px;
+}
+
+#navbar ul li a {
+    height: 10px;
+    margin: 5px;
+    color: white;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+    background-color: #ea7c69;
+    border: 1px solid #ea7c69;
+    border-radius: 14px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.card-1 {
+    border-radius: 16px;
+    box-shadow: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 430px;
+    width: 200px;
+    padding: 20px;
+    background: #1f1d2b;
+    font-family: "Inter", sans-serif;
+    justify-content: center;
+}
+
+.card-2 {
+    border-radius: 16px;
+    box-shadow: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 430px;
+    width: 200px;
+    padding: 20px;
+    background: #1f1d2b;
+    font-family: "Inter", sans-serif;
+}
+
+.card-3 {
+    border-radius: 16px;
+    box-shadow: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 430px;
+    width: 200px;
+    padding: 20px;
+    background: #1f1d2b;
+    font-family: "Inter", sans-serif;
+}
+
+.card-1 h3 {
+    line-height: 15px;
+}
+
+img {
+    border: 1px solid #1f1d2b;
+    border-radius: 16px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    color: white;
+    margin: 5px;
+}
+
+h1 {
+    padding-left: 20px;
+}
+
+
+.icon-basket {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #ea7c69;
+    border: 1px solid #ea7c69;
+    border-radius: 50%;
+
+}
+
+.icon-basket:hover {
+    width: 45px;
+    height: 45px;
+}
+
+.sepete-ekle {
+    width: 110px;
+    height: 50px;
+
+    margin: auto;
+    border: 1px solid #ea7c69;
+    border-radius: 16px;
+    font-family: inherit;
+    color: white;
+}
+
+.sepete-ekle:hover {
+    width: 120px;
+    height: 60px;
+}
